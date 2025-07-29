@@ -196,23 +196,25 @@
 //                                No_10
 
 
-// let A = 13;
-// let B = 3;
+let A = 13;
+let B = 3;
 
-// let total = 0;
+let total = 0;
 
-// if (A < B) {
-//   for (let i = A; i <= B; i++) {
-//     if (i % 2 == 0) {
-//       total += i;
-//     }
-//   }
-//   console.log(`${A} dan ${B} gacha bo'lgan juft sonlar yig'indisi = ${total}`)
-// } else if (A > B) {
-//   for (let i = A; i >= B; i--) {
-//     if (i % 2 == 0) {
-//       total += i;
-//     }
-//   }
-//   console.log(`${A} dan ${B} gacha bo'lgan juft sonlar yig'indisi = ${total}`)
-// }
+if (A < B) {
+  for (let i = A; i <= B; i++) {
+    if (i % 2 == 0) {
+      console.log(i)
+      total += i;
+    }
+  }
+  console.log(`${A} dan ${B} gacha bo'lgan juft sonlar yig'indisi = ${total}`)
+} else if (A > B) {
+  for (let i = A; i >= B; i--) {
+    if (i % 2 == 0) {
+      console.log(i)
+      total += i;
+    }
+  }
+  console.log(`${A} dan ${B} gacha bo'lgan juft sonlar yig'indisi = ${total}`)
+}
